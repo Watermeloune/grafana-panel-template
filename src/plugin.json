@@ -4,7 +4,7 @@
 	"id": "beebryte-template-panel",
 
 	"info": {
-		"description": "template for panel creation on grafana",
+		"description": "template for panel development on grafana",
 		"author": {
 			"name": "Beebryte",
 			"url": "https://beebryte.com"

@@ -46,7 +46,7 @@ module.exports = {
         test: /\.tsx?$/,
         loaders: [
           {
-            loader: 'babel-loader'
+            loader: 'babel-loader',
             options: { presets: ['env']},
           },
           'ts-loader',
