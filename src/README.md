@@ -1,10 +1,7 @@
 template panel
 
-#installation
+**installation**
 
-
-
-clone it in /data/plugins
-
+git clone https://github.com/Watermeloune/grafana-panel-template.git
 yarn install --pure-lockfile
-./node_modules/.bin/webpack --mode development
+yarn watch / yarn dev

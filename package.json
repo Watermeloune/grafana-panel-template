@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "template panel for grafana",
   "main": "index.js",
+  "scripts": {
+    "dev": "./node_modules/.bin/webpack --mode development",
+    "watch": "./node_modules/.bin/webpack --mode development --watch"
+  },
   "author": "Beebryte",
   "license": "MIT",
   "devDependencies": {
