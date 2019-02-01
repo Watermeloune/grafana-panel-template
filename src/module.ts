@@ -1,5 +1,5 @@
 import { PanelCtrl } from 'grafana/app/plugins/sdk'
-
+import './css/style.css'
 
 class TemplatePanel extends PanelCtrl {
   static templateUrl = "partials/module.html"

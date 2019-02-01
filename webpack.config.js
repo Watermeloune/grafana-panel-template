@@ -34,7 +34,8 @@ module.exports = {
       { from: 'partials/*', to: '.' },
       { from: 'img/*', to: '.' },
       { from: 'LICENSE', to: '.' },
-      { from: 'README.md', to: '.' }
+      { from: 'README.md', to: '.' },
+      { from: 'css/*', to: '.' },
     ]),
   ],
   resolve: {
