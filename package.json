@@ -6,7 +6,7 @@
   "author": "Beebryte",
   "license": "MIT",
   "devDependencies": {
-    "babel-core": "^6.26.3",
+    "babel-core": "^7.0.0-bridge.0",
     "babel-loader": "7",
     "babel-preset-env": "^1.7.0",
     "clean-webpack-plugin": "^1.0.1",
