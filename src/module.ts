@@ -27,14 +27,11 @@ class TemplatePanel extends MetricsPanelCtrl {
   }
 
   onDataReceived(dataList) {
-    this.render(dataList);
+    this.value = dataList[0].datapoints[0][0].toFixed(2);
+    this.render();
   }
 
-  onRender(data) {
-    console.log("=====================DATA=====================");
-    this.value = data[0].datapoints[0][0].toFixed(2);
-    console.log(this);
-    console.log("=====================DATA=====================");
+  onRender() {
 
   }
 }
