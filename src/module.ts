@@ -6,6 +6,10 @@ class TemplatePanel extends PanelCtrl {
 
   constructor($scope, $injector) {
     super($scope, $injector);
+    console.log("==============PanelCtrl==============");
+    console.log(PanelCtrl);
+    console.log("==============PanelCtrl==============");
+
   }
 }
 
